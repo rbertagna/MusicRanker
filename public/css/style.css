@@ -1,0 +1,83 @@
+
+
+body {
+  background-color: white;
+  margin-top: 0px;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: blue;
+  height: 600px;
+  margin-top: 0px;
+  border-radius: 30px;
+}
+
+
+.title > h1 {
+  margin: 0px;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+.title {
+
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+.choice {
+  width: 40%;
+  margin: 5%;
+  float: left;
+}
+
+.music_img {
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.left .music_img {
+  background-size: cover;
+
+}
+
+.right .music_img {
+  background-size: cover;
+}
+h2{
+  padding: 15px;
+}
+.music_hover {
+  height: 100%;
+  width: 100%;
+  color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0);
+}
+
+.music_hover:hover {
+  display: block;
+  background: rgba(50, 50, 50, 10);
+  opacity: .8;
+  color: white;
+}
+
+input[type="submit"] {
+  height:100%;
+  width:100%;
+  color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0);
+  border: 0px;
+  position:relative;
+  top: -73px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+
