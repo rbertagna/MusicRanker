@@ -24,6 +24,8 @@
                 <h2> <%= @left.name %> </h2>
                 <input type="hidden" name="left_rating" value="<%= @left_rating %>">
                 <input type="hidden" name="right_rating" value="<%= @right_rating %>">
+                <input type="hidden" name="left_id" value="<%= @left.id %>">
+                <input type="hidden" name="right_id" value="<%= @right.id %>">
                 <input type="submit" class="vote">
               </div>
             </div>
@@ -37,12 +39,14 @@
                 <h2> <%= @right.name %> </h2>
                 <input type="hidden" name="left_rating" value="<%= @left_rating %>">
                 <input type="hidden" name="right_rating" value="<%= @right_rating %>">
+                <input type="hidden" name="left_id" value="<%= @left.id %>">
+                <input type="hidden" name="right_id" value="<%= @right.id %>">
                 <input type="submit" class="vote">
               </div>
             </div>
           </div>
         </form>
-
+        <a href="/rank"> Rankings </a>
       </div>
     </div>
 

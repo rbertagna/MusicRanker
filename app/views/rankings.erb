@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> Ranker</title>
+    <link rel="stylesheet" href="css/style.css" type="../../public/css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/indexStyle.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <ul>
+      <% @rankings.each do |musician|%>
+      <li> <%= musician[2] + ". " + musician[0] + ": " + musician[1] %></li>
+      <% end %>
+    </ul>
+  </body>
+</html> 

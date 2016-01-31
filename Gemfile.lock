@@ -80,7 +80,7 @@ DEPENDENCIES
   pry
   rake
   shotgun
-  sinatra
+  sinatra (~> 1.4, >= 1.4.7)
   sinatra-activerecord
   sqlite3
   thin
